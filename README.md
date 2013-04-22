@@ -1,16 +1,19 @@
-# [Wulf MVC](http://html5boilerplate.com)
+# [Wulf MVC](https://github.com/adjavaherian/wulf_mvc)
 
 ### TODO Refactor instructions below for Wulf ###
-HTML5 Boilerplate is a professional front-end template for building fast,
-robust, and adaptable web apps or sites.
+Wulf MVC on HTML5 Boilerplate is a professional front-end template for building fast,
+robust, and adaptable web apps or ReSTFul sites using a jQuery based MVC Design Pattern.
 
-This project is the product of many years of iterative development and combined
-community knowledge. It does not impose a specific development philosophy or
-framework, so you're free to architect your code in the way that you want.
+This project stems from a pattern which was originally published by Adam Wulf at
+http://welcome.totheinter.net/tutorials/model-view-controller-in-jquery/.
 
-* Source: [https://github.com/h5bp/html5-boilerplate](https://github.com/h5bp/html5-boilerplate)
-* Homepage: [http://html5boilerplate.com](http://html5boilerplate.com)
-* Twitter: [@h5bp](http://twitter.com/h5bp)
+Like HTML5 Boilerplate, it does not impose a specific development philosophy or
+framework, so you're free to architect your code in the way that you want and use
+the code as a template for developing robust application with class-like MVC objects.
+
+* Source: [https://github.com/adjavaherian/wulf_mvc]
+* Homepage: [http://welcome.totheinter.net/tutorials/model-view-controller-in-jquery/]
+* Twitter: TBD
 
 
 ## Quick start
@@ -18,14 +21,13 @@ framework, so you're free to architect your code in the way that you want.
 Choose one of the following options:
 
 1. Download the latest stable release from
-   [html5boilerplate.com](http://html5boilerplate.com/) or a custom build from
-   [Initializr](http://www.initializr.com).
+   [https://github.com/adjavaherian/wulf_mvc/archive/master.zip]
+
 2. Clone the git repo — `git clone
-   https://github.com/h5bp/html5-boilerplate.git` - and checkout the tagged
-   release you'd like to use.
+   https://github.com/adjavaherian/wulf_mvc.git`
 
 
-## Features
+## Features (HTML5 Boilerplate)
 
 * HTML5 ready. Use the new elements with confidence.
 * Cross-browser compatible (Chrome, Opera, Safari, Firefox 3.6+, IE6+).
@@ -47,18 +49,21 @@ Choose one of the following options:
 * "Delete-key friendly." Easy to strip out parts you don't need.
 * Extensive inline and accompanying documentation.
 
+## Wulf Specific Support
+* 960 Grid CSS
+* jQuery based MVC Framework
+
 
 ## Documentation
 
-Take a look at the [documentation table of
-contents](/h5bp/html5-boilerplate/blob/master/doc/TOC.md). This
-documentation is bundled with the project, which makes it readily available for
-offline reading and provides a useful starting point for any documentation
-you want to write about your project.
+Tutorial available at:
+http://welcome.totheinter.net/tutorials/model-view-controller-in-jquery/
+
+Clone the git repo above to your web server.  Make sure you have ModPHP 4 or higher for AJAX Demo server
+Goto http://yourserver.com/wulf_mvc/
 
 
 ## Contributing
 
 Anyone and everyone is welcome to
-[contribute](/h5bp/html5-boilerplate/blob/master/CONTRIBUTING.md). Hundreds
-of developers have helped make the HTML5 Boilerplate what it is today.
+[contribute](https://github.com/adjavaherian/wulf_mvc/blob/master/CONTRIBUTING_TBD.md).
