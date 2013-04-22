@@ -1,6 +1,5 @@
 # [Wulf MVC](https://github.com/adjavaherian/wulf_mvc)
 
-### TODO Refactor instructions below for Wulf ###
 Wulf MVC on HTML5 Boilerplate is a professional front-end template for building fast,
 robust, and adaptable web apps or ReSTFul sites using a jQuery based MVC Design Pattern.
 
