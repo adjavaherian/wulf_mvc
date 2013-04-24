@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <!-- Link to custom css below -->
+        <link rel="stylesheet" href="css/960.css">
+
+        <!-- Use modernizer for easy quirksmodes -->
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <!-- Add your site or application markup / content here -->
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        <div id="wrap">
+            <div id="header">
+                <h1>Header</h1>
+                <h3>Hello World! This is Wulf MVC on HTML5 Boilerplate.</h3>
+            </div>
+
+            <div id="sidebar">
+                <h2>Left</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sagittis eros quis turpis tempus at consequat libero mattis. Cras rhoncus, nisi ac fringilla gravida, tellus orci sollicitudin urna, eget semper mi tortor placerat nunc. Quisque eget ornare est. Fusce bibendum mi et tellus faucibus eu tristique leo adipiscing. Integer in magna at mi suscipit pretium eget ac neque. Aliquam lobortis ipsum sed eros venenatis eu tristique arcu tincidunt. Morbi in lectus vel mauris imperdiet varius.</p>
+            </div>
+
+            <div id="main">
+                <h2>Main</h2>
+                <div id="messages"></div>
+                <div id="console"></div>
+            </div>
+            <div id="footer">
+                <p>Footer</p>
+            </div>
+        </div>
+
+
+        <!-- This webapp should be run from a fully qualified URL. Using file:// will result in source errors -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.0.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <script src="js/model.js"></script>
+        <script src="js/view.js"></script>
+        <script src="js/controller.js"></script>
+        <script src="js/delegate.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
+    </body>
+</html>
