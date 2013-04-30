@@ -1,43 +1,44 @@
 jQuery.extend({
 
-	Controller: function(model, view){
+    Controller: function (model, view) {
 
-		// listen to the view
-		var vlist = $.ViewListener({
+        // listen to the view
+        var vlist = $.ViewListener({
 
-            loadJson : function(){
+            loadJson: function () {
 
-                var data = {'id':'true'};
+                var data = {
+                    'id': 'true'
+                };
 
-                model.getJSON(view.config.baseURL, data, function(response){
-                    console.log(response.employees);
-                    $.each(response.employees, function(key, val) {
-                        view.updateMessages(val.name);  // or val['name']
+                model.getJSON(view.config.baseURL, data, function (response) {
+                    $.each(response.employees, function (key, val) {
+                        view.updateMessages(val.name); // or val['name']
                     });
 
                 });
 
             },
 
-            loadHtml : function(){
-				model.getHtml();
-			}
+            loadHtml: function () {
+                model.getHtml();
+            }
 
-		});
-		view.addListener(vlist);
+        });
+        view.addListener(vlist);
 
-		// listen to the model
-		var mlist = $.ModelListener({
+        // listen to the model
+        var mlist = $.ModelListener({
 
-			loadFail : function() {
-				view.updateMessages("ajax error");
-			},
-			loadFinish : function(data){
+            loadFail: function () {
+                view.updateMessages("ajax error");
+            },
+            loadFinish: function (data) {
                 view.updateMessages(data);
 
-			}
-		});
-		model.addListener(mlist);
-	}
+            }
+        });
+        model.addListener(mlist);
+    }
 
 });

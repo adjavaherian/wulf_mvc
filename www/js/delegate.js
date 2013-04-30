@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(document).ready(function () {
 
     // instantiate MVC classes
     var model = new $.Model();
