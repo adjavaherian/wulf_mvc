@@ -25,6 +25,7 @@ Choose one of the following options:
 2. Clone the git repo — `git clone
    https://github.com/adjavaherian/wulf_mvc.git`
 
+3. Check out the [quick start tutorial](https://github.com/adjavaherian/wulf_mvc/wiki/Quick-Start-Tutorial)
 
 ## Features (HTML5 Boilerplate)
 
